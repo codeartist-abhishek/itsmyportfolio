@@ -166,10 +166,28 @@ hr
 .about-content p
 {
     text-align: justify;
+    position: absolute;
+    left: 30%;
+    right: 8%;
+    font-size: 20px;
+    top: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
 }
 
 .heading
 {
     font-size: 33px;
-    margin-top: 16px;
+    margin-top: -500px;
+}
+
+.about-img img
+{
+    border-radius: 200px 200px 200px 200px;
+    position: absolute;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-left: -45%;
+    border: 1px solid wheat;
 }
