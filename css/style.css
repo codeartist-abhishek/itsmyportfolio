@@ -11,19 +11,13 @@
     text-decoration: none;
 }
 
-html
-{
-    font-size: 70%;
-    overflow-x: hidden;
-}
-
 .header
 {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 5%;
+    padding: 1vh 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,10 +26,10 @@ html
 
 .navbar a
 {
-    font-size: 1.7rem;
+    font-size: 1.2vw;
     color: white;
     font-weight: 500;
-    margin-left: 3.5rem;
+    margin-left: 3vw;
 }
 
 .logo
@@ -48,43 +42,18 @@ html
     color: yellow;
 }
 
-#menu-icon
+.home-content
 {
-    font-size: 3.6rem;
-    color: white;
-    cursor: pointer;
-    display: none;
-}
-
-section
-{
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
-}
-
-.home
-{
-    display: flex;
+    max-width: 60vw;
+    margin-top: 25vh;
     align-items: center;
     padding: 0 5%;
 }
 
-.home-content
-{
-    max-width: 100vh;
-    margin-top: 100px;
-}
-
 .home-content h1
 {
-    font-size: 5.8rem;
+    font-size: 4.5vw;
     font-weight: 700;
-    line-height: 1;
-}
-
-.home-content .text-animate
-{
-    position: relative;
 }
 
 span
@@ -94,33 +63,31 @@ span
 
 .home-content p
 {
-    font-size: 2rem;
-    margin: 3rem 0 4rem 0;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
     text-align: left;
-    line-height: 3rem;
+    line-height: 2.5vw;
 }
 
 .home-content a
 {
-    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     background: #f3cd33;
     color: black;
-    width: 20rem;
-    height: 50px;
-    border: .2rem solid yellow;
-    border-radius: .8rem;
-    font-size: 1.8rem;
+    width: 14vw;
+    height: 10vh;
+    border: .1vw solid yellow;
+    border-radius: .8vw;
+    font-size: 1.3vw;
     font-weight: 600;
-    letter-spacing: .1rem;
+    margin-top: -10px;
 }
 
 .home-content .images
 {
     width: 40%;
-    height: 40vw;
     position: absolute;
     bottom: 0;
     right: 100px;
@@ -128,7 +95,7 @@ span
 
 .home-content .images img
 {
-    height: 100%;
+    height: 80vh;
     position: absolute;
     left: 60%;
     bottom: 0;
@@ -138,12 +105,12 @@ span
 
 .images:hover .shape
 {
-    bottom: 5%;
+    bottom: 1%;
 }
 
 .images:hover .me
 {
-    left: 45%;
+    left: 55%;
 }
 
 hr
@@ -151,14 +118,17 @@ hr
     background-color: #f3cd33;
     border: none;
     height: 2px;
+    width: 100%;
 }
 
+
+/* ABOUT PAGE CSS */
 .about
 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
-    padding-bottom: 6rem;
+    gap: 2vw;
+    padding-bottom: 6vw;
 }
